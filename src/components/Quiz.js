@@ -11,7 +11,7 @@ const Quiz = () => {
         <div className="results">
           <div className="congratulations">Congratulations!</div>
           <div className="results-info">
-            <div>{quizState.amountOfCorrectAnswers === 0 ? "You have completed the quiz :(" :  "You have completed the quiz. :)"}</div>
+            <div>{quizState.amountOfCorrectAnswers === 0 ? "You have completed the quiz :( Better luck next time" :  "You have completed the quiz. :)"}</div>
             <div>
               You've got {quizState.amountOfCorrectAnswers} of &nbsp;
               {quizState.questions.length} right.
